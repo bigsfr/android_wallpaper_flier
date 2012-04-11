@@ -1,5 +1,5 @@
 /*
-   Copyright 2012 Harri Smått
+   Copyright 2012 Harri Smatt
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -75,7 +75,7 @@ public final class FlierEGLConfigChooser implements
 					0, temp);
 			int s = getConfigAttrib(egl, display, config,
 					EGL10.EGL_STENCIL_SIZE, 0, temp);
-			
+
 			int sum = r + g + b + (mNeedsDepth ? d : 0);
 			int sub = a + s;
 
