@@ -79,7 +79,7 @@ public final class FlierEGLConfigChooser implements
 			int sum = r + g + b + (mNeedsDepth ? d : 0);
 			int sub = a + s;
 
-			if (sum > highestSum || (sum == highestSum && sub < highestSub)) {
+			if (sum > highestSum || (sum == highestSum && sub > highestSub)) {
 				highestSum = sum;
 				highestSub = sub;
 				highestConfig = config;
