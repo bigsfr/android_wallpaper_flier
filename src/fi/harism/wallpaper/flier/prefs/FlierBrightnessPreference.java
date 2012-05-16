@@ -33,9 +33,9 @@ import fi.harism.wallpaper.flier.R;
 public final class FlierBrightnessPreference extends DialogPreference {
 
 	// Maximum brightness value.
-	private static final int VALUE_MAX = 120;
+	private static final int VALUE_MAX = 100;
 	// Minimum brightness value.
-	private static final int VALUE_MIN = 50;
+	private static final int VALUE_MIN = 0;
 
 	// SeekBar shown in dialog.
 	private SeekBar mSeekBar;
