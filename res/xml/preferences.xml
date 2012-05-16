@@ -11,7 +11,7 @@
             android:title="@string/general_quality_title" />
 
         <fi.harism.wallpaper.flier.prefs.FlierBrightnessPreference
-            android:defaultValue="100"
+            android:defaultValue="50"
             android:key="@string/key_general_brightness"
             android:summary="@string/general_brightness_summary"
             android:title="@string/general_brightness_title" />
